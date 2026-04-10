@@ -1,26 +1,28 @@
 @import "tailwindcss";
+@import "../styles/tokens.css";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: var(--tazki-slate-50);
+  --foreground: var(--tazki-slate-950);
+  --font-manrope: "Manrope", "Aptos", "Segoe UI", sans-serif;
+  --font-ibm-plex-mono: "IBM Plex Mono", "SFMono-Regular", "SF Mono", "Menlo", "Consolas", monospace;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-manrope);
+  --font-mono: var(--font-ibm-plex-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  border-color: var(--tazki-slate-200);
 }
 
 body {
-  background: var(--background);
+  background:
+    radial-gradient(circle at top right, rgba(19, 38, 77, 0.06), transparent 40%),
+    linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
 }

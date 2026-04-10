@@ -1,0 +1,16 @@
+:root {
+  --tazki-blue-950: #0e1c3a;
+  --tazki-blue-900: #13264d;
+  --tazki-blue-700: #1f3e77;
+  --tazki-blue-600: #2a4f94;
+  --tazki-slate-950: #0f172a;
+  --tazki-slate-700: #334155;
+  --tazki-slate-500: #64748b;
+  --tazki-slate-200: #e2e8f0;
+  --tazki-slate-100: #f1f5f9;
+  --tazki-slate-50: #f8fafc;
+  --tazki-white: #ffffff;
+  --tazki-success: #0f766e;
+  --tazki-warning: #b45309;
+  --tazki-danger: #b91c1c;
+}
