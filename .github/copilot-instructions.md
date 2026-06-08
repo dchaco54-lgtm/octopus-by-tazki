@@ -12,7 +12,7 @@ David no es programador experto. Explica todo simple, paso a paso, como si tuvie
 
 Octopus es un sistema interno tipo ERP / CRM / Billing Ops para Tazki.
 
-Tazki es una empresa SaaS B2B de prevención de riesgos, con clientes recurrentes, suscripciones en UF, implementación de nuevos clientes, facturación mensual, cobranza, OC, HES, MIGO, proveedores, payroll, contabilidad, tesorería y reportería financiera.
+Tazki es una empresa SaaS B2B de prevención de riesgos, con clientes recurrentes, suscripciones en UF, implementación de nuevos clientes, facturación mensual, cobranza, OC, HES, MIGO, proveedores, payroll, contabilidad, tesorería y reportería financiera y control de suscripciones.
 
 Octopus debe ayudar a controlar:
 
